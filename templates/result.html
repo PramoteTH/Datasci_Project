@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <title>WELCOME FUCKING BRO</title>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.css">
+
+    <link rel="stylesheet" href="/static/css/templatemo-lava.css">
+
+    <link rel="stylesheet" href="/static/css/owl-carousel.css">
+</head>
+<body>
+ดูซะเวร !!<br>
+    <center><img src="/static/{{filename}}" width="600" height="450"></center><br>
+    {{result}}<br><br><br>
+    <form action="/sound/{{result}}" method="POST">
+        <input type="submit" value="Sound on!" id="Sound-button">
+        <input type="hidden" name="result" value="{{result}}"/>
+        </form><br>
+    <a href="/" class="main-button-slider">BACK TO HOMEPAGE</a>
+</body>
+</html>
